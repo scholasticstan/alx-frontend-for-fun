@@ -1,7 +1,7 @@
 button {
-  color: #FF0000;
-}
+  color: #FF0000; // Default text color for button tags
 
-button:hover {
-  color: #00FF00;
+  &:hover {
+    color: #00FF00; // Text color when hovering over button tags
+  }
 }
